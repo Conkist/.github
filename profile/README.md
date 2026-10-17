@@ -18,10 +18,10 @@ The Conkist GDK is an open Unity framework built from production experience — 
 
 | Package | What it does | |
 |---|---|---|
-| [**conkist-gdk-core**](https://github.com/Conkist/Conkist.GDK.Core) | Foundation layer — singletons, events, commands, factories, state, async (UniTask), DI (VContainer) | ✅ Public |
-| [**conkist-gdk-services**](https://github.com/Conkist/Conkist.GDK.Services) | Backend integration — abstract interfaces + providers for auth, remote data and analytics (UGS, PlayFab, Conkist Backend) | ✅ Public |
-| **conkist-gdk-ui** | UI toolkit — components and interaction patterns built on Unity UI Toolkit | 🔜 Soon |
-| **conkist-gdk-ai** | Embodied AI agents — real-time conversational avatars with on-device LLM, RAG, lip-sync and voice | 🔜 Soon |
+| [**Conkist.GDK.Core**](https://github.com/Conkist/Conkist.GDK.Core) | Foundation layer — singletons, events, commands, factories, state, async (UniTask), DI (VContainer) | ✅ Public |
+| [**Conkist.GDK.Services**](https://github.com/Conkist/Conkist.GDK.Services) | Backend integration — abstract interfaces + providers for auth, remote data and analytics (UGS, PlayFab, Conkist Backend) | ✅ Public |
+| **Conkist.GDK.UI** | UI toolkit — components and interaction patterns built on Unity UI Toolkit | 🔜 Soon |
+| **Conkist.GDK.AI** | Embodied AI agents — real-time conversational avatars with on-device LLM, RAG, lip-sync and voice | 🔜 Soon |
 
 ### Install via Unity Package Manager
 
@@ -41,18 +41,6 @@ Add to `Packages/manifest.json` in your Unity project. `gdk.services` requires `
 **Serious games** that replace passive assessments and forced narratives with gameplay loops that teach through doing: geometry, programming, behavior change, health literacy.
 
 > *GG. And we mean both.*
-
----
-
-## Research
-
-| Year | Paper | Venue |
-|---|---|---|
-| 2026 | [ECO-STICK: Integrated control with ecological elements for interactive solutions in the Amazon](https://doi.org/10.1145/3788851.3815049) | ACM |
-| 2026 | [Project SmartAvatar: A Human-Avatar Interface](https://doi.org/10.1145/3788851.3815043) | ACM |
-| 2025 | [GeoModel: Technology and Innovation for a Diverse and Interactive Geometric Education](https://doi.org/10.1145/3706370.3731710) | ACM |
-
-[→ Full list on ORCID](https://orcid.org/0009-0005-5678-2210)
 
 ---
 
