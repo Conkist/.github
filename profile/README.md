@@ -21,7 +21,7 @@ The Conkist GDK is an open Unity framework built from production experience — 
 | [**Conkist.GDK.Core**](https://github.com/Conkist/Conkist.GDK.Core) | Foundation layer — singletons, events, commands, factories, state, async (UniTask), DI (VContainer) | ✅ Public |
 | [**Conkist.GDK.Services**](https://github.com/Conkist/Conkist.GDK.Services) | Backend integration — abstract interfaces + providers for auth, remote data and analytics (UGS, PlayFab, Conkist Backend) | ✅ Public |
 | [**Conkist.GDK.UI**](https://github.com/Conkist/Conkist.GDK.UI) | UI toolkit — Dialog, LoadingCanvas, ProgressBar and SafeArea components built on uGUI | ✅ Public |
-| [**Conkist.GDK.AI**](https://github.com/Conkist/Conkist.GDK.SmartAgents) | Embodied AI agents — real-time conversational avatars with on-device LLM, RAG, lip-sync and voice | ✅ Public |
+| [**Conkist.GDK.AI**](https://github.com/Conkist/Conkist.GDK.AI) | Embodied AI agents — real-time conversational avatars with on-device LLM, RAG, lip-sync and voice | ✅ Public |
 
 ### Install via Unity Package Manager
 
