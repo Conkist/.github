@@ -7,7 +7,7 @@
       <stop offset="100%" stop-color="#0d1117"/>
     </radialGradient>
     <!-- tagline gradient: gold, vertical, spans cap-height at 14px baseline y=162 -->
-    <linearGradient id="tagGrad" gradientUnits="userSpaceOnUse" x1="0" y1="150" x2="0" y2="164">
+    <linearGradient id="tagGrad" gradientUnits="userSpaceOnUse" x1="0" y1="138" x2="0" y2="152">
       <stop offset="0%" stop-color="#ffe655"/>
       <stop offset="100%" stop-color="#ffb300"/>
     </linearGradient>
@@ -59,7 +59,7 @@
 
   <!-- ── LOGO (fade-in) ── -->
   <g class="ck-lg">
-    <svg x="264" y="16" width="300" height="118" viewBox="0 0 85.447998 33.5149"
+    <svg x="264" y="30" width="300" height="118" viewBox="0 0 85.447998 33.5149"
          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
         <linearGradient id="lg45"><stop offset="0" stop-color="#40bcff"/><stop offset="1" stop-color="#1a6cb8"/></linearGradient>
@@ -131,7 +131,7 @@
   <!-- ── TAGLINE: below ConKist logo, 10% height right of center (x≈434) ──
        Inter 900 / uppercase / 22.5px / bump-pop per-char / gradient + white stroke + shadow -->
   <text
-    text-anchor="middle" x="434" y="162"
+    text-anchor="middle" x="450" y="150"
     font-family="Inter,'Segoe UI',system-ui,-apple-system,sans-serif"
     font-weight="900" font-size="14" letter-spacing="2"
     fill="url(#tagGrad)" stroke="white" stroke-width="1.8"
