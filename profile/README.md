@@ -8,7 +8,7 @@
 
 Entertainment-first games and research-grade serious games — built to make players grow without boring assessments or artificial narratives.
 
-[conkist.me](https://conkist.me) · [Research](https://orcid.org/0009-0005-5678-2210) · [LinkedIn](https://linkedin.com/in/renatoconkist)
+[conkist.me](https://conkist.me) · [LinkedIn](https://www.linkedin.com/company/conkiststudio)
 
 </div>
 
