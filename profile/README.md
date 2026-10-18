@@ -1,8 +1,10 @@
 <div align="center">
 
-# Conkist
+<img src="banner.svg" alt="Conkist — EVOLVE WITH MORE JOY!" width="828"/>
 
-**Evolve with more joy.**
+</div>
+
+<div align="center">
 
 Entertainment-first games and research-grade serious games — built to make players grow without boring assessments or artificial narratives.
 
