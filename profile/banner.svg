@@ -2,9 +2,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      viewBox="0 0 828 185" width="828" height="185">
   <defs>
-    <radialGradient id="bgGrd" cx="50%" cy="50%" r="55%" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#162032"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+    <!-- Dark bg: cosmic deep navy radial -->
+    <radialGradient id="bgDark" cx="50%" cy="50%" r="70%" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#0c1424"/>
+      <stop offset="100%" stop-color="#020609"/>
+    </radialGradient>
+    <!-- Light bg: ice white radial -->
+    <radialGradient id="bgLight" cx="50%" cy="50%" r="70%" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#e8f1ff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
     </radialGradient>
     <!-- tagline gradient: gold, vertical, spans cap-height at 14px baseline y=162 -->
     <linearGradient id="tagGrad" gradientUnits="userSpaceOnUse" x1="0" y1="138" x2="0" y2="152">
@@ -50,12 +56,21 @@
         transform-box:fill-box;
         transform-origin:50% 60%;
       }
+      /* ── Background mode switching ── */
+      .bg-dark  { display:block; }
+      .bg-light { display:none; }
+      @media (prefers-color-scheme:light) {
+        .bg-dark  { display:none; }
+        .bg-light { display:block; }
+      }
+      svg[data-theme="light"] .bg-dark  { display:none!important; }
+      svg[data-theme="light"] .bg-light { display:block!important; }
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect id="bgRect" width="828" height="185" fill="#0d1117"/>
-  <rect width="828" height="185" fill="url(#bgGrd)"/>
+  <!-- ── BACKGROUNDS (mode-adaptive) ── -->
+  <rect class="bg-dark"  width="828" height="185" fill="url(#bgDark)"/>
+  <rect class="bg-light" width="828" height="185" fill="url(#bgLight)"/>
 
   <!-- ── LOGO (fade-in) ── -->
   <g class="ck-lg">
